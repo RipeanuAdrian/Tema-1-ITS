@@ -1,0 +1,73 @@
+body {
+    color: rgb(183, 246, 183);
+    background-color: rgb(209, 243, 176);
+}
+a{  
+    display: flex;
+    background-color: rgb(11, 159, 11);
+    color: black;
+    border-radius: 10px;
+    border:6px;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 17px;
+
+}
+a img {
+    width: 30px;
+    height: 30px;
+}
+nav{
+    padding-left: 30px;
+    flex: 100;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+.titlu {
+    margin-left :auto;
+    margin-right :auto;
+    color: black; 
+    font-size: 22px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    padding: 12px 9px; /* 1px sus și jos, 3px stânga și dreapta */
+    width: fit-content;
+}
+.titlu p {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-image {
+    width: 200px;
+    height: 200px;
+    gap: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+
+}
+.middle-image{
+    display: flex;
+    width: 150px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    
+}
+.gallery{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    margin-top: 300px;
+    width: fit-content;
+    margin-left: auto; 
+    margin-right: auto;
+}
