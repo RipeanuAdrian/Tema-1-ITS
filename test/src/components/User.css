@@ -1,0 +1,13 @@
+.user{
+    color: green;
+}
+.user_all{
+    font-size: 24px;
+    background-color: gray;
+}
+.userSpeacial{
+    color: gold;
+}
+.userNormal{
+    color: magenta;
+}
